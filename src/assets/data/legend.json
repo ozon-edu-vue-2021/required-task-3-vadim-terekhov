@@ -22,5 +22,11 @@
     "color": "deeppink",
     "text": "Подразделение 4",
     "counter": 2
+  },
+  {
+    "group_id": 4,
+    "color": "olive",
+    "text": "Подразделение 5",
+    "counter": 5
   }
 ]
