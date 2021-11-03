@@ -1,9 +1,7 @@
 <template>
     <div class="map">
         <h3>Карта офиса</h3>
-
         <div
-            v-if="!isLoading"
             class="map-root"
         >
             <!-- map -->
@@ -16,7 +14,6 @@
                 ref="table"
             />
         </div>
-        <div v-else>Loading...</div>
     </div>
 </template>
 
@@ -33,7 +30,6 @@ export default {
     },
     data() {
         return {
-            isLoading: false,
             svg: null,
             g: null,
             tables: [],
